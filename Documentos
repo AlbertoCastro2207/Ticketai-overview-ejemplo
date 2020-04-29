@@ -1,0 +1,100 @@
+# Documentos
+
+TICKETAI permite el almacenamiento de una gran cantidad de documentos, navegar entre esta información puede ser un poco retador, para facilitar la navegación, esta funcionalidad cuenta con un motor de consulta poderoso.
+
+
+## Flujo Maestro
+
+El motor de búsqueda que contiene esta funcionalidad cuenta con los siguientes filtros:
+
+- Fechas: Se puede seleccionar un rango de fechas a consultar
+- Matches: Si se ingresó un documento de preventa que posteriormente es identificado con un ticket escaneado, se obtiene un "Match", en caso de no identificarlo, tendríamos un documento sin Match.
+
+PEGAR AQUI FLUJO MAESTRO
+
+### Precisiones del Flujo
+
+1. Se puede seleccionar el rango de fechas a filtrar, si no se desea filtrar por fechas, se omite este paso.
+2. Tenemos la opción de seleccionar si la búsqueda incluirá o no Matches.
+3. Con las preselecciones indicadas, el sistema mostrará la consulta indicada automáticamente.
+
+## Tipos de Consultas
+
+Teniendo en cuenta los filtros con los que contamos, podemos hacer los siguientes 4 tipos de consultas:
+
+1. Consulta por Fechas y Documentos con Matches.
+2. Consulta por Fechas y Documentos sin Matches.
+3. Consulta sin Fechas y Documentos con Matches.
+4. Consulta sin Fechas y Documentos sin Matches.
+
+A continuación se da una guía para conseguir cada uno de esos filtros.
+
+### Consulta por Fechas y Documentos con Matches
+
+El objetivo de esta consulta será identificar los documentos que tienen Match en un periodo de tiempo determinado.
+
+PEGAR FLUJO DE FECHA CON Matches
+
+#### Precisiones de este Flujo
+
+Partiendo de la pantalla de inicio se debe:
+
+1. Dar clic en el botón de la esquina superior izquierda.
+2. Seleccionar la opción Documentos.
+3. Dar clic en la opción de Rango de Fechas, esto desplegará un pequeño calendario, en ese calendario, debemos indicar el rango de fechas deseado.
+4. Seleccionar la opción "Con Matches".
+5. Esto desplegará el listado de coincidencias.
+  5.1 Si encuentra un documento particular que desee consultar para más información, dar clic en el botón Detalles.
+  5.2 Si no encuentra el documento buscado, se sugeriría ajustar la búsqueda.
+6. Para ajustar la búsqueda retomaríamos las acciones desde el paso 3.
+
+### Consulta por Fechas y Documentos sin Matches
+
+En el caso de necesitar una consulta que nos permita identificar que documentos no tienen Match en un intervalo de tiempo determinado.
+
+PEGAR FLUJO DE FECHA SIN Matches
+
+#### Precisiones de este Flujo
+
+Partiendo de la pantalla de inicio se debe:
+
+1. Dar clic en el botón de la esquina superior izquierda.
+2. Seleccionar la opción Documentos.
+3. Dar clic en la opción de Rango de Fechas, esto desplegará un pequeño calendario, en ese calendario, debemos indicar el rango de fechas deseado.
+4. Seleccionar la opción "Sin Matches".
+5. Esto desplegará el listado de coincidencias.
+  5.1 Si encuentra un documento particular que desee consultar para más información, dar clic en el botón Detalles.
+  5.2 Si no encuentra el documento buscado, se sugeriría ajustar la búsqueda.
+6. Para ajustar la búsqueda retomaríamos las acciones desde el paso 3.
+
+### Consulta sin Fechas y Documentos con Matches
+
+En el supuesto de que no tengamos clara la fecha de algún ticket que necesitemos consultar, pero tengamos certidumbre de que aparece con un Match, se recomienda realizar esté tipo de consultas.
+
+PEGAR FLUJO sin FECHA con Matches
+
+#### Precisiones de este Flujo
+
+Partiendo de la pantalla de inicio se debe:
+
+1. Dar clic en el botón de la esquina superior izquierda.
+2. Seleccionar la opción Documentos.
+3. Seleccionar la opción "Con Matches".
+4. Esto desplegará el listado de coincidencias.
+5. Al encontrar el documento al que desee consultar, dar clic en Detalles.
+
+### Consulta sin Fechas y Documentos sin Matches
+
+En el supuesto de que no tengamos clara la fecha de algún ticket que necesitemos consultar, pero tengamos certidumbre de que tampoco aparece con un Match, se recomienda realizar este tipo de consulta.
+
+PEGAR FLUJO sin FECHA sin Matches
+
+#### Precisiones de este Flujo
+
+Partiendo de la pantalla de inicio se debe:
+
+1. Dar clic en el botón de la esquina superior izquierda.
+2. Seleccionar la opción Documentos.
+3. Seleccionar la opción "Sin Matches".
+4. Esto desplegará el listado de coincidencias.
+5. Al encontrar el documento al que desee consultar, dar clic en Detalles.
