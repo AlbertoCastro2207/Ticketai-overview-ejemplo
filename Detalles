@@ -1,0 +1,101 @@
+# Detalles de Documento
+
+Esta sección está diseñada para permitirnos visualizar los Tickets escaneados y su información. La información está clasificada de la siguiente forma:
+
+1. Ticket: Se puede dar un clic en el Ticket para expandirlo.
+2. Información: En este conjunto de información tenemos
+  2.1 Fecha del Archivo original
+  2.2 Fecha de Creación
+  2.3 Fecha de Modificación
+3. Documento: En este conjunto de información tenemos
+  3.1 Recepción
+  3.2 Pedido
+  3.3 Factura
+4. Cliente: En este conjunto de información tenemos
+  4.1 Nombre
+  4.2 Sucursal
+  4.3 Fecha
+  4.4 Proveedor
+  4.5 Hora de Entrada
+  4.6 Hora de Salida
+5. Información de Transacción
+  5.1 Entradas
+  5.2 Salidas
+  5.3 C. Cargo
+  5.4 Sub - Total
+  5.5 Descuento
+  5.6 Cargos
+  5.7 IEPS
+  5.8 IVA
+  5.9 Total
+  5. 10 Total Calc.
+6. Matches. En el caso de tener un documento con Matches, aparece el campo Coincidencias.
+7. Detalles de Transacción: En este conjunto de información tenemos
+  7.1 Descripción
+  7.2 Cup
+  7.3 Entradas
+  7.4 Salidas
+  7.5 C/ Cargos
+  * Nota: Este campo contiene hasta 10 lineas de visualización por Default, se pueden ampliar a 15, todas o reducirse a 5. Si el documento incluye más articulos de los mostrados, se cuenta con flechas de navegación para visualizar el resto de productos.
+
+## Campo Coincidencias
+
+Cuando un documento identifica un "Match" entre el Ticket y el documento de Pre Venta Cargado, aparece el campo Coincidencias.
+
+Este campo muestra la siguiente información:
+
+a) Cliente
+b) Sucursal
+c) Fecha
+d) Fecha de Expiración
+e) Número Cliente
+d) Número de Factura
+f) Valor de la Factura
+g) Descuento Acordado
+h) IVA
+i) IEPS
+j) Total de la Factura
+
+Enfrente de los campos en los que tenga la coincidencia, aparece un icono con una letra:
+
+A de color Verde: Coincidencia Perfecta
+B de color Amarillo: Buena calidad de Coincidencia
+C de color XXX: Se sugiere entrar al campo a verificar estos detalles
+D de color Naranja: Recomendable revisar este campo
+E de color Rojo: Altamente recomendable revisar estos detalles.
+
+Es importante mencionar que en ocasiones los Tickets pueden tener algun sello, firma que TICKETAI puede interpretar como un match de poca calidad, aunque la información sea correcta.
+
+## Flujo de Trabajo
+
+A cotinuación se muestra el Flujo de Trabajo para Verificar coinciencias
+
+[[/Tutorial1/diagrama_4.1.png/to/image.ext|Revision de Deatalles]]
+
+### Precisiones del Flujo de Trabajo
+
+1. Clic en coincidencias: Esto nos permitirá identficar todos los campos con coincidencias.
+2. Detallar Información: Si encontramos coincidencias con rangos C o menor es Altamente recomendable verificar
+2.1 En caso de que sea necesario detallar información, aplicar el Flujo de Editar Documentos
+2.2 Si desea revisar y verificar información voluntariamente, aplicar el Flujo de Editar Documentos
+
+
+## Flujo de Trabajo: Editar Documentos
+
+Este flujo de trabajo da los detalles para editar información si es que fuera necesario.
+
+[[/Tutorial1/diagrama_4.png/to/image.ext|Cabiar  Detalles]]
+
+### Precisiones Flujo de Trabajo: Editar Documentos
+
+1. ¿Desea consultar información? Basado en las coincidencias, se recomienda revisar, por lo menos esos campos.
+2. Si desea realizar cambios, dar clic en el campo editable.
+3. Al verificar la información podremos saber si necesitamos ajustar algún detalle
+  3.1 Si no necesita más detalles, ¿consultará algún Campo más?
+4. En caso de necesitarlo, regresar a paso 2
+  3.2 Si en necesario detallar algo, capturar el Detalle.
+5. Verificar que la captura es correcta.
+  5.1 En caso de ser correcta, dar clic en "Guardar"
+  5.2 En caso de no estar satisfecho con la presión dar clic en "Cancelar"
+6. Desea/ necesita detallar más información.
+  6.1 En caso de requerirlo, regresar a Paso 2

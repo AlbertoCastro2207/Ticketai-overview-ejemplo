@@ -1,0 +1,73 @@
+# Carga de Archivos
+A nivel de procedimiento, esté sería el primer paso por seguir, es la carga de archivos.
+
+TICKETAI, tiene diferentes bondades al momento de cargar archivos, en los siguientes puntos se describirán con detenimiento.
+
+## Tipos de Archivos Permitidos
+
+TICKETAI permite cargar los siguientes archivos en su sistema:
+
+- Archivos .jpg
+- Archivos .PNG
+
+
+Bajo la idea de que un ticket escaneado sea equivalente a un archivo, este proceso puede tomar mucho tiempo en concretarse, por lo tanto, para facilitar esta carga de archivos, TICKETAI permite:
+
+- Archivos .zip
+- Archivos .tar
+
+## Flujo de Trabajo
+
+A continuación, se muestra el flujo de trabajo para realizar la carga de archivos en TICKETAI:
+
+[[/Tutorial1/diagrama 1.png/to/image.ext|Carga de Archvios]]
+
+### Precisiones Referentes al Flujo de Trabajo
+
+Log In: Acceso a la Plataforma
+1.	Menú: El menú es el botón de la esquina superior izquierda.
+
+2.	Cargar Archivo: Es una funcionalidad que se despliega al dar clic en el botón Menú.
+
+3.	¿Se cargaron los archivos?: La Pantalla muestra un cuadro con la leyenda: "Arrastre los Archivos aquí", al arrastrar los archivos se muestra una imagen del archivo cargado.
+
+  3.1	SI los archivos no se cargan correctamente aparece un icono en forma de "crucecita"
+  3.2	 Si los archivos se cargan correctamente aparece un icono en forma de "palomita"
+
+
+4.	Eliminar Archivo: Una de las bondades que tiene TICKETAI es permitirnos remover algún archivo que erróneamente hubiera sido cargado.
+  4.1	Si no desea remover ningun archivo, aquí termina el proceso.
+  4.2	Si desea eliminar algun archivo, se debe colocar el puntero del mouse sobre el archivo cargado que desee eliminar  y dar clic en la opción “Eliminar Archivo”
+
+## Recomendaciones Adicionales
+
+1. Si un ticket está muy maltratado, roto o con varios sellos o firmas encima puede no ser interpretado correctamente por el sistema.
+2. La calidad mínima de un ticket escaneado es: 600 dpi.
+
+## Los Archivos de Referencia
+
+TICKETAI no sólo permite la carga de Tickets, también permite la carga de "archivos de referencia".
+
+Los Archivos de Referencia pueden interpretarse como "preventas", es decir, si se agendó con el cliente la entrega de un cierto paquete de artículos a surtir.
+
+TICKETAI esta diseñado para también leer este tipo de archivos, su generación y carga son muy importantes ya que, al tenerlos de referencia, se pueden conseguir "matches", en la sección de Documentos se detallará esta función.
+
+#### Características de los archivos de Referencia
+
+Los archivos de referencia deben tener el formato:
+- .xls
+- .xlxs
+
+Los campos que debe tener el archivo de referencia y que harán match con los Tickets físicos escaneados son:
+
+- Documentos
+  - Recepción
+  - Pedido
+  - Factura
+-Cliente
+  - Nombre
+  - Sucursal
+- Información de Transacción
+  - Entradas
+  - Salidas
+  - Precios
