@@ -10,7 +10,7 @@ El motor de búsqueda que contiene esta funcionalidad cuenta con los siguientes 
 - Fechas: Se puede seleccionar un rango de fechas a consultar
 - Matches: Si se ingresó un documento de preventa que posteriormente es identificado con un ticket escaneado, se obtiene un "Match", en caso de no identificarlo, tendríamos un documento sin Match.
 
-[[/Tutorial1/Busqueda_Documentos_Maestro(3).png/to/image.ext|ALT TEXT]]
+[[/Tutorial1/Busqueda_Documentos_Maestro(3).png/to/image.ext|Flujo Maestro]]
 
 ### Precisiones del Flujo
 
@@ -33,7 +33,7 @@ A continuación se da una guía para conseguir cada uno de esos filtros.
 
 El objetivo de esta consulta será identificar los documentos que tienen Match en un periodo de tiempo determinado.
 
-PEGAR FLUJO DE FECHA CON Matches
+[[/Tutorial1/Fecha_con_Matches(3).png/to/image.ext|Filtro de fechas con matches]]
 
 #### Precisiones de este Flujo
 
@@ -52,7 +52,7 @@ Partiendo de la pantalla de inicio se debe:
 
 En el caso de necesitar una consulta que nos permita identificar que documentos no tienen Match en un intervalo de tiempo determinado.
 
-PEGAR FLUJO DE FECHA SIN Matches
+[[/Tutorial1/Fecha_sin_Matches(3).png/to/image.ext|Filtro de fechas sin matches]]
 
 #### Precisiones de este Flujo
 
@@ -71,7 +71,7 @@ Partiendo de la pantalla de inicio se debe:
 
 En el supuesto de que no tengamos clara la fecha de algún ticket que necesitemos consultar, pero tengamos certidumbre de que aparece con un Match, se recomienda realizar esté tipo de consultas.
 
-PEGAR FLUJO sin FECHA con Matches
+[[/Tutorial1/Matches_sin_Fechas(3).png/to/image.ext|Filtro sin fechas con matches]]
 
 #### Precisiones de este Flujo
 
@@ -87,7 +87,7 @@ Partiendo de la pantalla de inicio se debe:
 
 En el supuesto de que no tengamos clara la fecha de algún ticket que necesitemos consultar, pero tengamos certidumbre de que tampoco aparece con un Match, se recomienda realizar este tipo de consulta.
 
-PEGAR FLUJO sin FECHA sin Matches
+[[/Tutorial1/Sin_Matches_sin_Fechas(3) (3).png/to/image.ext|Filtro sin fechas sin matches]]
 
 #### Precisiones de este Flujo
 
