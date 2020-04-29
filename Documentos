@@ -10,7 +10,7 @@ El motor de búsqueda que contiene esta funcionalidad cuenta con los siguientes 
 - Fechas: Se puede seleccionar un rango de fechas a consultar
 - Matches: Si se ingresó un documento de preventa que posteriormente es identificado con un ticket escaneado, se obtiene un "Match", en caso de no identificarlo, tendríamos un documento sin Match.
 
-PEGAR AQUI FLUJO MAESTRO
+[[/Tutorial1/Busqueda_Documentos_Maestro(3).png/to/image.ext|ALT TEXT]]
 
 ### Precisiones del Flujo
 
