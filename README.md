@@ -1,5 +1,4 @@
-# TicketAI-overview-ejemplo
-
+# TicketAI
 
 - [Generalidades](#Generalidades)
 - [Cargar_Archivos](#Cargar_Archivos)
@@ -9,50 +8,52 @@
 
 # Generalidades
 
-Ticket AI es una herramienta diseñada con un complejo algoritmo de “Machine Learning” que permite la lectura inteligente de tickets. 
+TicketAI es una herramienta diseñada con un complejo algoritmo de “Machine Learning” que permite la lectura inteligente de tickets. 
 
 Las capacidades de lectura son la base, de un sistema de manejo de información enfocado en obtener bases de datos solidas que permitan explotar la información recopilada en los tickets. 
 
 ## Funcionalidades
 
-Ticket AI cuenta con las siguientes funcionalidades: “Documentos”, “Cargar Archivos” y “Buscar”
+TicketAI cuenta con las siguientes funcionalidades: 
+
+* Documentos; 
+* Cargar Archivos; y 
+* Buscar
 
 Para explicar	a detalle las funcionalidades, se tienen secciones dedicadas a cada una de ellas. 
 
-## ¿Licenciamiento?
-
 ## ¿Seguridad? 
 
-## Ultimas Mejoras
+## Últimas Mejoras
 
 # Cargar_Archivos
 
 A nivel de procedimiento, esté sería el primer paso por seguir, es la carga de archivos.
 
-Ticket AI, tiene diferentes bondades al momento de cargar archivos, en los siguientes puntos se describirán con detenimiento.
+TicketAI, tiene diferentes bondades al momento de cargar archivos, en los siguientes puntos se describirán con detenimiento.
 
 ## Tipos de Archivos Permitidos
 
-Ticket AI permite cargar los siguientes archivos en su sistema:
+TicketAI permite cargar los siguientes archivos en su sistema:
 
 - Archivos .jpg
 - Archivos .png
 
 
-Bajo la idea de que un ticket escaneado sea equivalente a un archivo, este proceso puede tomar mucho tiempo en concretarse, por lo tanto, para facilitar esta carga de archivos, Ticket AI permite:
+Bajo la idea de que un ticket escaneado sea equivalente a un archivo, este proceso puede tomar mucho tiempo en concretarse, por lo tanto, para facilitar esta carga de archivos, TicketAI permite:
 
 - Archivos .zip
 - Archivos .tar
 
 ## Flujo de Trabajo
 
-A continuación, se muestra el flujo de trabajo para realizar la carga de archivos en Ticket AI:
+A continuación, se muestra el flujo de trabajo para realizar la carga de archivos en TicketAI:
 
 ![Cargar Documentos](https://user-images.githubusercontent.com/63880141/80722746-56f04a00-8ac5-11ea-8201-4af6a0afacd4.png)
 
 ### Precisiones Referentes al Flujo de Trabajo
 
-Log In: Acceso a la Plataforma
+Login: Acceso a la Plataforma
 
 1.	Menú: El menú es el botón de la esquina superior izquierda.
 
@@ -60,11 +61,11 @@ Log In: Acceso a la Plataforma
 
 3.	¿Se cargaron los archivos?: La Pantalla muestra un cuadro con la leyenda: "Arrastre los Archivos aquí", al arrastrar los archivos se muestra una imagen del archivo cargado.
 
-3.1	 Si los archivos no se cargan correctamente aparece un icono en forma de "tachecito"
+3.1	 Si los archivos no se cargan correctamente aparece un icono rojo de rechazo.
 
-3.2	 Si los archivos se cargan correctamente aparece un icono en forma de "palomita"
+3.2	 Si los archivos se cargan correctamente aparece un icono verde de confirmación.
 
-4.	Eliminar Archivo: Una de las bondades que tiene Ticket AI es permitirnos remover algún archivo que erróneamente hubiera sido cargado.
+4.	Eliminar Archivo: Una de las bondades que tiene TicketAI es permitirnos remover algún archivo que erróneamente hubiera sido cargado.
 
 4.1	Si no desea remover ningún archivo, aquí termina el proceso.
 
@@ -72,17 +73,17 @@ Log In: Acceso a la Plataforma
 
 ## Recomendaciones Adicionales
 
-1. Si un ticket está muy maltratado, roto o con varios sellos o firmas encima puede no ser interpretado correctamente por el sistema.
+1. Si un ticket está muy maltratado, roto o con varios sellos o firmas encima podría no ser interpretado correctamente por el sistema.
 
 2. La calidad mínima de un ticket escaneado es: 600 dpi.
 
 ## Los Archivos de Referencia
 
-Ticket AI no sólo permite la carga de Tickets, también permite la carga de "archivos de referencia".
+TicketAI no sólo permite la carga de Tickets, también permite la carga de "archivos de referencia".
 
 Los Archivos de Referencia pueden interpretarse como "preventas", es decir, si se agendó con el cliente la entrega de un cierto paquete de artículos a surtir.
 
-Ticket AI esta diseñado para también leer este tipo de archivos, su generación y carga son muy importantes ya que, al tenerlos de referencia, se pueden conseguir "matches", en la sección de Documentos se detallará esta función.
+TicketAI esta diseñado para también leer este tipo de archivos, su generación y carga son muy importantes ya que, al tenerlos de referencia, se pueden conseguir "matches", en la sección de Documentos se detallará esta función.
 
 #### Características de los archivos de Referencia
 
@@ -94,22 +95,26 @@ Los campos que debe tener el archivo de referencia y que harán match con los Ti
 
 - Documentos
 
-  * Recepción
-  * Pedido
-  * Factura
+* Recepción
+* Pedido
+* Factura
+
 -Cliente
-  * Nombre
-  * Sucursal
+
+* Nombre
+* Sucursal
+
 - Información de Transacción
-  * Entradas
-  * Salidas
-  * Precios
+
+* Entradas
+* Salidas
+* Precios
   
   # Buscar
 
-Por su diseño, Ticket AI permite la carga de muchos archivos, uno por cada Ticket, ante este volumen tan grande de información, se necesita un motor de búsqueda que este a la Altura.
+Por su diseño, TicketAI permite la carga de muchos archivos, uno por cada Ticket, ante este volumen tan grande de información, se necesita un motor de búsqueda que este a la altura. 
 
-Ticket AI cuenta con un poderoso motor de búsqueda que permite identificar diferentes elementos que forman parte de los Tickets, por ejemplo:
+TicketAI cuenta con un poderoso motor de búsqueda que permite identificar diferentes elementos que forman parte de los Tickets, por ejemplo:
 
 - Productos
 - Clientes
@@ -117,35 +122,36 @@ Ticket AI cuenta con un poderoso motor de búsqueda que permite identificar dife
 
 ## Tipo de Búsquedas posibles
 
-El motor de búsqueda con el que cuenta Ticket AI permite realizar búsquedas cruzadas muy interesantes, combinando diferentes productos y clientes, a continuación, se muestran diferentes ejemplos de combinaciones:
-Incluso, es posible realizar buscadas combinadas, tales como:
-  - Producto 1, Producto 2, Producto 3 y tantos como sea posible
-  - Cliente 1, Cliente 2, Cliente 3 y tantos como sea posible
-  - Cliente 1, Producto 1, Producto 2, Producto 3, y tantos productos como sea posible.
-  - Cliente 1, Cliente 2, Producto 1
+El motor de búsqueda con el que cuenta TicketAI permite realizar búsquedas cruzadas muy interesantes, combinando diferentes productos y clientes, a continuación, se muestran diferentes ejemplos de combinaciones:
+
+- Producto 1, Producto 2, Producto 3 y tantos como sea posible. 
+- Cliente 1, Cliente 2, Cliente 3 y tantos como sea posible.
+- Cliente 1, Producto 1, Producto 2, Producto 3, y tantos productos como sea posible.
+- Cliente 1, Cliente 2, Producto 1. 
 
 ## Flujo de Trabajo
 
 ![Buscar](https://user-images.githubusercontent.com/63880141/80723875-c61a6e00-8ac6-11ea-93c2-c8e0e75759b4.png)
 
-### Precisiones Referentes al Flujo de trabajo
+### Precisiones Referentes al Flujo de Trabajo
 
-Log In: Acceso a la Plataforma
+Login: Acceso a la Plataforma
+
 1.	Menú: El menú es el botón de la esquina superior izquierda.
 
 2.	Buscar: Es una de las opciones que aparece en el menú desplegable.
 
-3.  Campo de Búsqueda: Este campo esta diseñado para aceptar "Etiqueta", se recomienda colocar una Etiqueta por Producto y/o Cliente. Para esto se debe escribir el nombre del producto o cliente y terminar con el botón "enter"
+3. Campo de Búsqueda: Este campo esta diseñado para aceptar "Etiqueta", se recomienda colocar una Etiqueta por Producto y/o Cliente. Para esto se debe escribir el nombre del producto o cliente y terminar con el botón "enter".
 
-3.1 Si tecleó incorrectamente el nombre del Producto o Cliente, se puede dar clic en el "tachecito" de la Etiqueta, o bien, dar clic en el botón Limpiar
+3.1 Si tecleó incorrectamente el nombre del Producto o Cliente, se puede dar clic en el "tachecito" de la Etiqueta, o bien, dar clic en el botón Limpiar.
 
 3.2 Si tecleó todo correctamente dar clic en el botón buscar.
 
 4. Aparece el listado de coincidencias.
  
-4.1 Si se necesita obtener detalles de alguno de los Tickets mostrados, dar clic en el botón "Detalles"
+4.1 Si se necesita obtener detalles de alguno de los Tickets mostrados, dar clic en el botón "Detalles". 
  
-4.2 Si no encontró lo que buscaba, se puede ajustar la búsqueda en el paso 3
+4.2 Si no encontró lo que buscaba, se puede ajustar la búsqueda en el paso 3.
 
 ## Detalles
 
@@ -153,14 +159,14 @@ Al dar clic en Detalles nos encontramos con una pantalla distinta con una gran v
 
 # Documentos
 
-Ticket AI permite el almacenamiento de una gran cantidad de documentos, navegar entre esta información puede ser un poco retador, para facilitar la navegación, esta funcionalidad cuenta con un motor de consulta poderoso.
+TicketAI permite el almacenamiento de una gran cantidad de documentos, navegar entre esta información puede ser un poco retador, para facilitar la navegación, esta funcionalidad cuenta con un motor de consulta poderoso.
 
 
 ## Flujo Maestro
 
 El motor de búsqueda que contiene esta funcionalidad cuenta con los siguientes filtros:
 
-- Fechas: Se puede seleccionar un rango de fechas a consultar
+- Fechas: Se puede seleccionar un rango de fechas a consultar.
 - Matches: Si se ingresó un documento de preventa que posteriormente es identificado con un ticket escaneado, se obtiene un "Match", en caso de no identificarlo, tendríamos un documento sin Match.
 
 ![Documentos_Maestro](https://user-images.githubusercontent.com/63880141/80723966-e2b6a600-8ac6-11ea-9860-064bb8634a00.png)
@@ -278,73 +284,73 @@ Partiendo de la pantalla de inicio se debe:
 
 Esta sección está diseñada para permitirnos visualizar los Tickets escaneados y su información. La información está clasificada de la siguiente forma:
 
-1. Ticket: Se puede dar un clic en el Ticket para expandirlo.
+1. Ticket. Se puede dar un clic en el Ticket para expandirlo.
 
-2. Información: En este conjunto de información tenemos
+2. Información. En este conjunto de contamos con los campos mostrados a continuación:
 
-2.1 Fecha del Archivo original
+    2.1 Fecha del Archivo original.
 
-2.2 Fecha de Creación
+    2.2 Fecha de Creación.
 
-2.3 Fecha de Modificación
+    2.3 Fecha de Modificación.
 
-3. Documento: En este conjunto de información tenemos
+3. Documento. En este conjunto de contamos con los campos mostrados a continuación:
 
-3.1 Recepción
+    3.1 Recepción.
 
-3.2 Pedido
+    3.2 Pedido.
 
-3.3 Factura
+    3.3 Factura.
 
-4. Cliente: En este conjunto de información tenemos
+4. Cliente. En este conjunto de contamos con los campos mostrados a continuación:
 
-4.1 Nombre
+   4.1 Nombre.
 
-4.2 Sucursal
+   4.2 Sucursal.
 
-4.3 Fecha
+   4.3 Fecha.
 
-4.4 Proveedor
+   4.4 Proveedor.
 
-4.5 Hora de Entrada
+   4.5 Hora de Entrada.
 
-4.6 Hora de Salida
+   4.6 Hora de Salida.
 
-5. Información de Transacción
+5. Información de Transacción. En este conjunto de contamos con los campos mostrados a continuación:
 
-5.1 Entradas
+   5.1 Entradas. 
 
-5.2 Salidas
+   5.2 Salidas. 
 
-5.3 C. Cargo
+   5.3 C. Cargo. 
 
-5.4 Sub - Total
+   5.4 Sub - Total.
 
-5.5 Descuento
+   5.5 Descuento.
 
-5.6 Cargos
+   5.6 Cargos.
 
-5.7 IEPS
+   5.7 IEPS.
 
-5.8 IVA
+   5.8 IVA.
 
-5.9 Total
+   5.9 Total.
 
-5. 10 Total Calc.
+   5.10 Total Calc.
 
 6. Matches. En el caso de tener un documento con Matches, aparece el campo Coincidencias.
 
-7. Detalles de Transacción: En este conjunto de información tenemos
+7. Detalles de Transacción. En este conjunto de contamos con los campos mostrados a continuación:
 
-7.1 Descripción
+   7.1 Descripción.
 
-7.2 Cup
+   7.2 Cup.
 
-7.3 Entradas
+   7.3 Entradas.
 
-7.4 Salidas
+   7.4 Salidas.
 
-7.5 C/ Cargos
+   7.5 C/Cargos.
 
 * Nota: Este campo contiene hasta 10 líneas de visualización por Default, se pueden ampliar a 15, todas o reducirse a 5. Si el documento incluye más artículos de los mostrados, se cuenta con flechas de navegación para visualizar el resto de los productos.
 
@@ -354,31 +360,31 @@ Cuando un documento identifica un "Match" entre el Ticket y el documento de Pre-
 
 Este campo muestra la siguiente información:
 
-a) Cliente
-b) Sucursal
-c) Fecha
-d) Fecha de Expiración
-e) Número Cliente
-d) Número de Factura
-f) Valor de la Factura
-g) Descuento Acordado
-h) IVA
-i) IEPS
-j) Total de la Factura
+a) Cliente.
+b) Sucursal.
+c) Fecha. 
+d) Fecha de Expiración.
+e) Número Cliente.
+d) Número de Factura.
+f) Valor de la Factura.
+g) Descuento Acordado.
+h) IVA.
+i) IEPS. 
+j) Total de la Factura.
 
 Enfrente de los campos en los que tenga la coincidencia, aparece un icono con una letra:
 
-A de color Verde: Coincidencia Perfecta
-B de color Amarillo: Buena calidad de Coincidencia
-C de color XXX: Se sugiere entrar al campo a verificar estos detalles
-D de color Naranja: Recomendable revisar este campo
+A de color Verde: Coincidencia Perfecta.
+B de color Amarillo: Buena calidad de Coincidencia.
+C de color XXX: Se sugiere entrar al campo a verificar estos detalle. 
+D de color Naranja: Recomendable revisar este campo.
 E de color Rojo: Altamente recomendable revisar estos detalles.
 
-Es importante mencionar que en ocasiones los Tickets pueden tener algún sello, firma que TICKETAI puede interpretar como un match de poca calidad, aunque la información sea correcta.
+Es importante mencionar que en ocasiones los Tickets pueden tener algún sello, firma que TicketAI puede interpretar como un match de poca calidad, aunque la información sea correcta.
 
 ## Flujo de Trabajo
 
-A continuación, se muestra el Flujo de Trabajo para Verificar coincidencias
+A continuación, se muestra el Flujo de Trabajo para Verificar coincidencias.
 
 ![Coincidencias](https://user-images.githubusercontent.com/63880141/80724572-9f106c00-8ac7-11ea-9a5c-81a69d14ddfd.png)
 
@@ -386,11 +392,11 @@ A continuación, se muestra el Flujo de Trabajo para Verificar coincidencias
 
 1. Clic en coincidencias: Esto nos permitirá identificar todos los campos con coincidencias.
 
-2. Detallar Información: Si encontramos coincidencias con rangos C o menor es Altamente recomendable verificar
+2. Detallar Información: Si encontramos coincidencias con rangos C o menor es Altamente recomendable verificar.
 
-2.1 En caso de que sea necesario detallar información, aplicar el Flujo de Editar Documentos
+2.1 En caso de que sea necesario detallar información, aplicar el Flujo de Editar Documentos.
 
-2.2 Si desea revisar y verificar información voluntariamente, aplicar el Flujo de Editar Documentos
+2.2 Si desea revisar y verificar información voluntariamente, aplicar el Flujo de Editar Documentos.
 
 
 ## Flujo de Trabajo: Editar Documentos
@@ -405,20 +411,20 @@ Este flujo de trabajo da los detalles para editar información si es que fuera n
 
 2. Si desea realizar cambios, dar clic en el campo editable.
 
-3. Al verificar la información podremos saber si necesitamos ajustar algún detalle
+3. Al verificar la información podremos saber si necesitamos ajustar algún detalle.
 
-3.1 Si no necesita más detalles, ¿consultará algún Campo más?
+3.1 Si no necesita más detalles, ¿Consultará algún Campo más?.
 
-4. En caso de necesitarlo, regresar a paso 2
+4. En caso de necesitarlo, regresar a paso 2.
 
 3.2 Si en necesario detallar algo, capturar el Detalle.
 
 5. Verificar que la captura es correcta.
 
-5.1 En caso de ser correcta, dar clic en "Guardar"
+5.1 En caso de ser correcta, dar clic en "Guardar".
 
-5.2 En caso de no estar satisfecho con la presión dar clic en "Cancelar"
+5.2 En caso de no estar satisfecho con la presión dar clic en "Cancelar".
 
 6. Desea/ necesita detallar más información.
 
-6.1 En caso de requerirlo, regresar a Paso 2
+6.1 En caso de requerirlo, regresar a Paso 2.
