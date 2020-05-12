@@ -372,13 +372,19 @@ h) IVA.
 i) IEPS. 
 j) Total de la Factura.
 
+La calidad General de la coincidencia se clasifica por un código alfanumerico:
+
+A0  -  A1  -  A2  -  A3 
+B0  -  B1  -  B2  -  B3 
+C0  -  C1  -  C2  -  C3 
+D0  -  D1  -  D2  -  D3 
+
 Enfrente de los campos en los que tenga la coincidencia, aparece un icono con una letra:
 
-A de color Verde: Coincidencia Perfecta.
+A de color Verde: Coincidencia Optima.
 B de color Amarillo: Buena calidad de Coincidencia.
-C de color XXX: Se sugiere entrar al campo a verificar estos detalle. 
-D de color Naranja: Recomendable revisar este campo.
-E de color Rojo: Altamente recomendable revisar estos detalles.
+C de color Naranja: Recomendable revisar este campo.
+N/A de color Rojo: Altamente recomendable revisar estos detalles.
 
 Es importante mencionar que en ocasiones los Tickets pueden tener algún sello, firma que TicketAI puede interpretar como un match de poca calidad, aunque la información sea correcta.
 
